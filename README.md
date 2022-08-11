@@ -4,7 +4,7 @@
 
 - ASRock X570 Taichi
 - AMD Ryzen 7 3800XT
-- AMD Radeon RX 580 8GB
+- AMD Radeon RX 6900 XT 16GB
 - Booting from a SATA SSD: Samsung 870 EVO 500GB
 
 ## Recommended macOS version(s) to use:
@@ -58,7 +58,7 @@ If you need Big Sur (because you probably need the builtin Ethernet to work) che
 
 - AMD graphics cards newer than the RX Polaris series:
   
-  - RX 5000 Series: You have to add `agdpmod=pikera` in boot-args to properly boot.
+  - RX 5000/6000 Series: You have to add `agdpmod=pikera` in boot-args to properly boot. (already added by default)
   - RX 6000 Series: Not all cards are supported! Check your card beforehand.
 
 - Any processor other than the 3800XT I have:
