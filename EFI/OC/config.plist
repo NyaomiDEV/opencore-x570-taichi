@@ -120,6 +120,11 @@
 				<key>built-in</key>
 				<data>AQ==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>agdpmod</key>
+				<string>pikera</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -1006,7 +1011,7 @@
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>boot-args</key>
-				<string>agdpmod=pikera</string>
+				<string></string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
