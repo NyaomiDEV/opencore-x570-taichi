@@ -371,7 +371,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>2.6.3 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
+				<string>2.6.4 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
