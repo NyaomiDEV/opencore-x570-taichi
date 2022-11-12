@@ -299,7 +299,7 @@
 				<key>BundlePath</key>
 				<string>AppleIGB.kext</string>
 				<key>Comment</key>
-				<string>5.7.2-im-eee-stall | Intel I211 Ethernet LAN - 8086:1539 - Monterey (12.x) onwards - Also buggy</string>
+				<string>mbarbierato's IGBxMausi fork | Intel I211 Ethernet LAN - 8086:1539 - Monterey (12.x) onwards - Also buggy</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
