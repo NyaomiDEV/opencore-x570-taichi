@@ -11,7 +11,8 @@
 
 - Monterey.
   Tested and working on version 12.4
-- Ventura Beta wasn't tested, though it could boot as all the kernel patches are already upstreamed. Wi-Fi will surely not work as the kernel extension is missing, though.
+- Ventura.
+  Tested and working on versions 13.0 - 13.0.1
 
 If you need Big Sur (because you probably need the builtin Ethernet to work) check out the [older, unmaintained tree](https://github.com/NyaomiDEV/opencore-x570-taichi/tree/big_sur) which works well enough with it.
 
