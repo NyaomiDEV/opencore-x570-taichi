@@ -30,6 +30,14 @@
 				<key>Path</key>
 				<string>SSDT-X570TAI-XHC-DR3NAN.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT to make the power button actually do something</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SLPB-SBRG.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
