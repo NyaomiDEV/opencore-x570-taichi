@@ -133,6 +133,11 @@
 				<key>agdpmod</key>
 				<string>pikera</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x3)</key>
+			<dict>
+				<key>built-in</key>
+				<data>AQAAAA==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
