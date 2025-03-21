@@ -3,7 +3,7 @@
 ## Relevant build details:
 
 - ASRock X570 Taichi
-- AMD Ryzen 7 5950X
+- AMD Ryzen 9 5950X
 - AMD Radeon RX 6900 XT 16GB
 - Booting from a SATA SSD: Samsung 870 EVO 500GB
 
