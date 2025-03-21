@@ -3,7 +3,7 @@
 ## Relevant build details:
 
 - ASRock X570 Taichi
-- AMD Ryzen 7 3800XT
+- AMD Ryzen 7 5950X
 - AMD Radeon RX 6900 XT 16GB
 - Booting from a SATA SSD: Samsung 870 EVO 500GB
 
@@ -18,12 +18,6 @@ If you need Big Sur (because you probably need the builtin Ethernet to work) che
 
 ### All possible configurations on this board
 
-- The builtin Ethernet does not work reliably. This is down to the AppleIGB kernel extension being really bad, but also being the only kernel extension that's currently available for Monterey onwards.
-  The LucyRTL8125Ethernet kernel extension is included to support Realtek PCIe cards based on the RTL8125 chip (and variants), which are usually cheap to get on Amazon. Those also support 2.5Gbps networking (a step up since the builtin Ethernet port is only 1Gbps in speed), so the (small) price to pay is eventually worth it.
-  Furthermore, there's HoRNDIS (Android USB tethering kernel extension) included as a last resort, though the Wi-Fi will work both on recovery mode and on the final installed system.
-
-- Microphone and line inputs (AppleALC doesn't support that on AMD systems);
-
 - Onboard RGB controls (you can change your lighting from the BIOS anyway);
 
 - HDMI/DP audio is crackly, and that's due to the PAT fix by Shaneee (you could use algrey's PAT fix but that will make the GPU noticeably slower);
@@ -36,17 +30,6 @@ If you need Big Sur (because you probably need the builtin Ethernet to work) che
   
   This isn't a big concern since Apple dropped 32-bit support themselves, but there are plenty of 64-bit apps that still use 32-bit code paths.
   (**Wine**, **CrossOver**, etc.)
-
-- Applications taking advantage of Intel's MKL (OneAPI).
-  They might appear to work, but then they'd hang indefinitely or crash; notable mentions are:
-  
-  - The (almost) entirety of the **Adobe Creative Cloud suite** (yes, Photoshop, Premiere Pro and After Effects are affected);
-  - **Discord** (the Krisp AI noise suppression module, to be specific);
-  
-  What, you really wanted to use those applications because that's kinda the whole point of hackintoshing for productivity?
-  Oh well then great news for you: around the internet there are patched versions of those apps that run magically well on our systems!
-  And if you ever get tired of searching patched apps, then [just use the library patcher I made](https://github.com/NyaomiDEV/AMDFriend)
-  because that's also what the guys in the forums do to make those patched apps and libs.
 
 ### Peculiar configurations:
 
