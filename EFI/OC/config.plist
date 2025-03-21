@@ -210,7 +210,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>1.8.2 | Lilu Plugin - Audio patches</string>
+				<string>1.9.4 | Lilu Plugin - Audio patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
