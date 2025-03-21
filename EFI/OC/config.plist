@@ -246,7 +246,7 @@
 				<key>BundlePath</key>
 				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>0.7.1 | Power management driver for AMD processors</string>
+				<string>0.7.2 | Power management driver for AMD processors</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -264,7 +264,7 @@
 				<key>BundlePath</key>
 				<string>SMCAMDProcessor.kext</string>
 				<key>Comment</key>
-				<string>0.6.4 (Not updated on purpose) | VirtualSMC Plugin - Temperature monitoring for AMD processors</string>
+				<string>0.7.2 | VirtualSMC Plugin - Temperature monitoring for AMD processors</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
