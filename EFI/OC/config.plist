@@ -192,7 +192,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>1.6.4 | Lilu Plugin - Video patches</string>
+				<string>1.6.9 | Lilu Plugin - Video patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
