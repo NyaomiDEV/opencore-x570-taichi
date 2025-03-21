@@ -316,9 +316,9 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>AirportItlwm-Ventura.kext</string>
+				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
-				<string>2.2.0-alpha DEBUG | AirportItlwm Driver for Intel AX200 8086:2723 for Ventura Only</string>
+				<string>2.3.0 - Sonoma 14.4+ | AirportItlwm Driver for Intel AX200 8086:2723 for Ventura Only</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
