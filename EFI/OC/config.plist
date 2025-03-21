@@ -336,7 +336,7 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string>2.2.0 | Bluetooth firmware for Intel AX200 bluetooth</string>
+				<string>2.4.0 | Bluetooth firmware for Intel AX200 bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -354,7 +354,7 @@
 				<key>BundlePath</key>
 				<string>IntelBTPatcher.kext</string>
 				<key>Comment</key>
-				<string>2.2.0 | Bluetooth firmware for Intel AX200 bluetooth - Patcher</string>
+				<string>2.4.0 | Bluetooth firmware for Intel AX200 bluetooth - Patcher</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -372,7 +372,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>2.6.6 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
+				<string>2.6.9 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
