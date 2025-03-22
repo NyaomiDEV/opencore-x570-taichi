@@ -286,7 +286,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RadeonSensor</string>
+				<string>Contents/MacOS/SMCRadeonSensors</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1064,7 +1064,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
