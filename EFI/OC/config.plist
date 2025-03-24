@@ -24,7 +24,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT for testing purposes from amd-osx built for the X570 taichi</string>
+				<string>Common X570 motherboards SSDT to make the power button work</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SLPB-SBRG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT specific to the ASRock X570 Taichi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,11 +40,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT to make the power button actually do something</string>
+				<string>Defines missing GPU-related PCI bridges for property injection</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-SLPB-SBRG.aml</string>
+				<string>SSDT-Bridge.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
