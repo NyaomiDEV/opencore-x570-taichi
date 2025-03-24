@@ -1,18 +1,13 @@
 # OpenCore configuration for ASRock X570 Taichi
 
+This EFI only boots macOS Sequoia! Older versions are not supported.
+
 ## Relevant build details:
 
 - ASRock X570 Taichi
 - AMD Ryzen 9 5950X
 - AMD Radeon RX 6900 XT 16GB
-- Booting from a SATA SSD: Samsung 870 EVO 500GB
-
-## Recommended macOS version(s) to use:
-
-- Ventura.
-  Tested and working on versions 13.0 - 13.2
-
-If you need Big Sur (because you probably need the builtin Ethernet to work) check out the [older, unmaintained tree](https://github.com/NyaomiDEV/opencore-x570-taichi/tree/big_sur) which works well enough with it.
+- Booting from a SATA SSD: Samsung 870 EVO 1TB
 
 ## What is NOT working:
 
@@ -23,8 +18,6 @@ If you need Big Sur (because you probably need the builtin Ethernet to work) che
 - HDMI/DP audio is crackly, and that's due to the PAT fix by Shaneee (you could use algrey's PAT fix but that will make the GPU noticeably slower);
 
 - Software that relies on Apple's hypervisor kernel extension (**Docker**, **Parallels Desktop**, etc.)
-  
-  You can work around some stuff (for example, you can use Docker under a Linux VM inside VirtualBox);
 
 - 32-bit applications.
   
@@ -43,7 +36,7 @@ If you need Big Sur (because you probably need the builtin Ethernet to work) che
   - RX 5000/6000 Series: You have to add `agdpmod=pikera` in boot-args to properly boot. (already added by default)
   - RX 6000 Series: Not all cards are supported! Check your card beforehand.
 
-- Any processor other than the 3800XT I have:
+- Any processor other than the one I have:
   
   - You have to modify the core count on the kernel patches section of the OpenCore config;
   - You also have to modify the processor name in the RestrictEvents configuration.
@@ -60,7 +53,6 @@ Pretty much everything else.
 
 ## Notes:
 
-- VoodooHDA is an alternative to AppleALC that has mic input and line input working; but the audio quality is noticeably worse.
 - iServices DO work, if you provide a legit serial/MKB/ROM combo.
 
 ## Honorable mentions:
