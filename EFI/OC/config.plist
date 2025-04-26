@@ -385,7 +385,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>2.6.9 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
+				<string>2.7.0 | Bluetooth patches for Monterey and up for Intel AX200 bluetooth</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -920,6 +920,66 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix alloc_dma_buffer (including Sonoma)</string>
+				<key>Count</key>
+				<integer>3</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>SInHQbgDAAAA</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>+P/H////////</data>
+				<key>MaxKernel</key>
+				<string>24.99.99</string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>Replace</key>
+				<data>SInHQbgTAAAA</data>
+				<key>ReplaceMask</key>
+				<data>AAAAAAAQAAAA</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>CaseySJ - Fix IOBufferMemoryDescriptor::withOptions</string>
+				<key>Count</key>
+				<integer>3</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ugAAAAC/AAAAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleEthernetAquantiaAqtion</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>//8A////8P///w==</data>
+				<key>MaxKernel</key>
+				<string>24.99.99</string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>Replace</key>
+				<data>ugACAAC/EwAAAA==</data>
+				<key>ReplaceMask</key>
+				<data>AAAAAAAAEAAAAA==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -948,7 +1008,7 @@
 			<key>ExternalDiskIcons</key>
 			<true/>
 			<key>ForceAquantiaEthernet</key>
-			<false/>
+			<true/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -1118,8 +1178,12 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
+				<key>bluetoothInternalControllerInfo</key>
+				<data>AAAAAAAAAAAAAAAAAAA=</data>
+				<key>bluetoothExternalDongleFailed</key>
+				<data>AA==</data>
 				<key>boot-args</key>
-				<string></string>
+				<string>revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>ForceDisplayRotationInEFI</key>
